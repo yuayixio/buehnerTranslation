@@ -5,13 +5,16 @@ import { Link as GatsbyLink } from 'gatsby';
 
 const Header = () => (
   <Box as="header" bg="teal.500" color="white" py={4}>
-    <Flex maxW="1200px" mx="auto" px={4} align="center" justify="space-between">
+    <Flex pl={4} pr={10} align="center" justify="space-between">
+      {/* Logo (Aligned to the Left) */}
       <Heading as="h1" size="lg">
         <Link as={GatsbyLink} to="/" _hover={{ textDecoration: 'none' }} color="white">
-          My Translation Services
+          Buehner Translation
         </Link>
       </Heading>
-      <Flex as="nav" gap={4}>
+
+      {/* Navigation Links (Aligned to the Right) */}
+      <Flex as="nav" gap={8} ml="auto">  {/* This pushes the menu items to the far right */}
         <Link as={GatsbyLink} to="/translation" _hover={{ textDecoration: 'underline' }}>
           Translation
         </Link>

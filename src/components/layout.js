@@ -1,6 +1,6 @@
 // src/components/Layout.js
 import React from 'react';
-import Header from './header';
+import Header from './Header';
 import Footer from './Footer';
 import '../styles/global.css';
 
