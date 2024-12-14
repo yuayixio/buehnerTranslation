@@ -11,19 +11,19 @@ const Footer = ({ language }) => {
             <Flex direction={{ base: 'column', md: 'row' }} justify="center" align="center" mx="auto">
                 {/* Footer Links */}
                 <Flex gap={6} mb={{ base: 4, md: 0 }} justify="center">
-                    <Link href="/inquiry" color="white" _hover={{ textDecoration: 'underline' }}>
+                    <Link href="/contact" color="white" _hover={{ textDecoration: 'underline' }}>
                         {content.inquiry}
                     </Link>
                     <Link href="/contact" color="white" _hover={{ textDecoration: 'underline' }}>
                         {content.contact}
                     </Link>
-                    <Link href="/directions" color="white" _hover={{ textDecoration: 'underline' }}>
+                    <Link href="/contact" color="white" _hover={{ textDecoration: 'underline' }}>
                         {content.directions}
                     </Link>
                     <Link href="/terms" color="white" _hover={{ textDecoration: 'underline' }}>
                         {content.terms}
                     </Link>
-                    <Link href="/imprint" color="white" _hover={{ textDecoration: 'underline' }}>
+                    <Link href="/impressum" color="white" _hover={{ textDecoration: 'underline' }}>
                         {content.imprint}
                     </Link>
                 </Flex>
