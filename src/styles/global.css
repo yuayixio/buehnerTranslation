@@ -1,28 +1,60 @@
 /* src/styles/global.css */
-body {
-    font-family: Arial, sans-serif;
+
+/* Global reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header,
-footer {
+body {
+    font-family: 'Arial', sans-serif;
+    /* You can change this to any font of your choice */
     background-color: #f8f8f8;
-    padding: 1rem;
-    text-align: center;
+    /* Default background color */
+    color: #333;
+    /* Default text color */
+    line-height: 1.6;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+/* Ensure images don't stretch weirdly */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
+/* For accessibility, define focus outline (optional) */
+:focus {
+    outline: 3px solid #2b6cb0;
+    /* Chakra's default blue shade */
 }
 
-main {
-    padding: 2rem;
+/* Chakra UI typography defaults */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Georgia', serif;
+    /* You can change this if you want a different font for headings */
+    font-weight: 600;
+    /* Set a heavier font weight for headings */
+}
+
+p {
+    margin-bottom: 1.5em;
+    /* Adds spacing between paragraphs */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /* Inherit text color */
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    /* Underline links on hover or focus */
 }
