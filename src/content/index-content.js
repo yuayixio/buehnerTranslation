@@ -2,7 +2,7 @@ export const rightbox = {
   en: {
     heroTitle: "Welcome to Buehner Translation",
     heroDescription: "Providing high-quality translation, interpretation, and consulting services. With years of experience and expertise in multiple languages, we ensure accurate and reliable translations for all your needs.",
-    partner: "Your competent partner for German, English, French, and Chinese:",
+    partner: "Your competent partner for German, English, French, and Chinese",
     servicesList: [
       "Technical Translation",
       "General Translation",
@@ -17,7 +17,7 @@ export const rightbox = {
   de: {
     heroTitle: "Willkommen bei Buehner Translation",
     heroDescription: "Wir bieten hochwertige Übersetzungs-, Dolmetsch- und Beratungsdienste an. Mit jahrelanger Erfahrung und Expertise in mehreren Sprachen gewährleisten wir genaue und zuverlässige Übersetzungen für alle Ihre Bedürfnisse.",
-    partner: "Ihr kompetenter Partner für Deutsch, Englisch, Französisch und Chinesisch:",
+    partner: "Ihr kompetenter Partner für Deutsch, Englisch, Französisch und Chinesisch",
     servicesList: [
       "Technische Übersetzungen",
       "Allgemeine Übersetzungen",
