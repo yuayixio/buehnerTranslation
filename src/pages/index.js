@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Box, Heading, Text, Link, Flex, VStack, Image, Select } from '@chakra-ui/react';
 import Layout from '../components/Layout';
 import { rightbox } from '../content/index-content'; // Import translations
+import ContactForm from '../components/ContactForm';  // Import the contact form component
 
 const IndexPage = () => {
   // Set default language to English
@@ -137,6 +138,11 @@ const IndexPage = () => {
             </Text>
           </Box>
         </Flex>
+      </Box>
+
+      {/* Contact Form Section */}
+      <Box py={16} px={6} bg="gray.50">
+        <ContactForm language={language} />
       </Box>
 
       {/* Language Selector */}
