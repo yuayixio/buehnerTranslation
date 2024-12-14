@@ -104,10 +104,10 @@ const IndexPage = () => {
       {/* Service Details Section */}
       <Box py={16} px={20} mx={20} bg="gray.50">
         <Flex
-          direction={{ base: 'column', md: 'row' }}
+          direction={{ base: 'column', md: 'row' }} // Stacks on small screens, rows on larger screens
           justify="space-between"
-          wrap="wrap"
-          spacing={8}
+          wrap="wrap" // Ensures the boxes wrap if there is not enough space
+          spacing={8} // Adds space between the boxes
           mx="auto"
         >
           <Box className="service-box">

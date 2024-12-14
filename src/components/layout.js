@@ -1,15 +1,19 @@
-// src/components/Layout.js
-import React from 'react';
+import React, { useState } from 'react';
+import { Box } from '@chakra-ui/react';
 import Header from './Header';
 import Footer from './Footer';
-import '../styles/global.css';
+import '../styles/global.css'
 
-const Layout = ({ children }) => (
-  <div>
-    <Header />
-    <main>{children}</main>
-    <Footer />
-  </div>
-);
+const Layout = ({ children }) => {
+  const [language, setLanguage] = useState('en'); // Default language
+
+  return (
+    <Box>
+      <Header language={language} setLanguage={setLanguage} />
+      <main>{children}</main>
+      <Footer language={language} />
+    </Box>
+  );
+};
 
 export default Layout;
