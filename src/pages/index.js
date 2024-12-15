@@ -58,37 +58,37 @@ const IndexPage = () => {
             <VStack spacing={4} align="left" pl={8}>
               <ul style={{ padding: 0 }}>
                 <li>
-                  <Link href="/translation" color="teal.300" fontWeight="bold" fontSize="lg">
+                  <Link href={`/services#translations`} color="teal.300" fontWeight="bold" fontSize="lg">
                     {content.servicesList[0]}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/translation" color="teal.300" fontWeight="bold" fontSize="lg">
+                  <Link href={`/services#translations`} color="teal.300" fontWeight="bold" fontSize="lg">
                     {content.servicesList[1]}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/translation" color="teal.300" fontWeight="bold" fontSize="lg">
+                  <Link href={`/services#translations`} color="teal.300" fontWeight="bold" fontSize="lg">
                     {content.servicesList[2]}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/interpretation" color="teal.300" fontWeight="bold" fontSize="lg">
+                  <Link href={`/services#interpretation`} color="teal.300" fontWeight="bold" fontSize="lg">
                     {content.servicesList[3]}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/language-services" color="teal.300" fontWeight="bold" fontSize="lg">
+                  <Link href={`/services#language-services`} color="teal.300" fontWeight="bold" fontSize="lg">
                     {content.servicesList[4]}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/china-consulting" color="teal.300" fontWeight="bold" fontSize="lg">
+                  <Link href={`/services#china-consulting`} color="teal.300" fontWeight="bold" fontSize="lg">
                     {content.servicesList[5]}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/china-consulting" color="teal.300" fontWeight="bold" fontSize="lg">
+                  <Link href={`/services#china-consulting`} color="teal.300" fontWeight="bold" fontSize="lg">
                     {content.servicesList[6]}
                   </Link>
                 </li>
