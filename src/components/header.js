@@ -8,7 +8,7 @@ import { navbar } from '../content/nav-bar-content';
 
 const Header = () => {
 
-  const [language, setLanguage] = useState('en');
+  const [language] = useState('en');
 
   const content = navbar[language];
   return (

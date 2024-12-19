@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import ContactForm from '../components/ContactForm';  // Import ContactForm
 
 const ContactPage = () => {
-    const [language, setLanguage] = useState('en');  // Default language is English
+    const [language] = useState('en');  // Default language is English
 
     return (
         <Layout>

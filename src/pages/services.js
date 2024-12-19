@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Box, Heading, Text, Image, Flex, Center } from '@chakra-ui/react';
+import { Box, Heading, Text, Image, Flex } from '@chakra-ui/react';
 import Layout from '../components/Layout';
-import { servicesContent } from '../content/services-content';  // Import services content
+import { servicesContent } from '../content/services-content';
 
 
 const ServicesPage = () => {
 
     const [language] = useState('en');
-    const content = servicesContent[language];  // Dynamically select content based on language
+    const content = servicesContent[language];
 
 
     return (

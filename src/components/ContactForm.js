@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, FormControl, FormLabel, Input, Textarea, Button, Select, Heading, Text } from '@chakra-ui/react';
+import { Box, FormControl, FormLabel, Input, Textarea, Button, Select, Heading } from '@chakra-ui/react';
 import { contactForm } from '../content/contact-content'; // Import translations
 
 const ContactForm = ({ language }) => {
