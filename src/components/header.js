@@ -23,10 +23,10 @@ const Header = () => {
 
         {/* Navigation Links (Aligned to the Right) */}
         <Flex as="nav" gap={8} ml="auto">  {/* This pushes the menu items to the far right */}
-          <Link as={GatsbyLink} to="/translation" _hover={{ textDecoration: 'underline' }}>
+          <Link as={GatsbyLink} to="/services" _hover={{ textDecoration: 'underline' }}>
             {content.offerings}
           </Link>
-          <Link as={GatsbyLink} to="/about" _hover={{ textDecoration: 'underline' }}>
+          <Link as={GatsbyLink} to="/services#about" _hover={{ textDecoration: 'underline' }}>
             {content.about}
           </Link>
           <Link as={GatsbyLink} to="/prices" _hover={{ textDecoration: 'underline' }}>

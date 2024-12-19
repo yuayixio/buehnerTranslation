@@ -18,7 +18,7 @@ const IndexPage = () => {
       <Box
         position="relative"
         height="80vh"
-        bgImage="images/background-image.jpg"
+        bgImage="/images/background-image.jpg"
         bgSize="cover"
         bgPosition="center"
       >
@@ -36,7 +36,7 @@ const IndexPage = () => {
         >
           <Box flex="1" maxWidth="50%" position="relative" zIndex="1">
             <Image
-              src="images/martina.jpg"
+              src="/images/martina.jpg"
               alt="Translator"
               boxSize="60%"
               objectFit="cover"
