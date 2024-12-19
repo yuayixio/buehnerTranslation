@@ -38,95 +38,94 @@ const ServicesPage = () => {
                 </Flex>
             </Box>
 
-            {/* Translations Section bg="gray.50"*/}
-            <Box className="wavy-background" py={16} px={20} mb={0} bg="green.100">
-                <Box id="translations" className="content" py={16} px={20} mb={0}>
-                    <Heading as="h2" size="xl" mb={8} textAlign='center'>
-                        {content.translationSection.title}
-                    </Heading>
+            {/* Translations Section */}
 
-                    {/* Technical Translations */}
-                    <Flex direction={{ base: 'column', lg: 'row' }} mb={20}>
-                        <Box
-                            flex="1"
-                            px={{ base: 4, lg: 8 }}
-                            display={{ base: 'block', lg: 'flex' }}
-                            flexDirection="column"
-                            justifyContent={{ base: 'flex-start', lg: 'center' }}
-                        >
-                            <Heading as="h3" size="lg" mb={4} textAlign="center" pr={10}>
-                                {content.translationSection.technical}
-                            </Heading>
-                            <Text pr={10}>{content.translationSection.technicalDescription}</Text>
-                        </Box>
-                        <Box flex="1">
-                            <Image
-                                src="/images/technical-translation.jpg"
-                                alt="Technical Translations"
-                                borderRadius="md" // Rounded edges
-                                boxSize="100%"  // Same size for all images
-                                objectFit="cover"
-                                height="40vh"
-                            />
-                        </Box>
-                    </Flex>
+            <Box id="translations" py={16} px={20} mb={0}>
+                <Heading as="h2" size="xl" mb={8} textAlign='center'>
+                    {content.translationSection.title}
+                </Heading>
 
-                    {/* Certified Translations */}
-                    <Flex direction={{ base: 'column', lg: 'row' }} mb={20}>
-                        <Box flex="1">
-                            <Image
-                                src="/images/certified-translation.jpg"
-                                alt="Certified Translations"
-                                borderRadius="md" // Rounded edges
-                                boxSize="100%"  // Same size for all images
-                                objectFit="cover"
-                                height="40vh"
-                            />
-                        </Box>
-                        <Box
-                            flex="1"
-                            px={{ base: 4, lg: 8 }}
-                            display={{ base: 'block', lg: 'flex' }}
-                            flexDirection="column"
-                            justifyContent={{ base: 'flex-start', lg: 'center' }}
-                        >
-                            <Heading as="h3" size="lg" mb={4} textAlign="center" pl={10}>
-                                {content.translationSection.certified}
-                            </Heading>
-                            <Text pl={10}>{content.translationSection.certifiedDescription}</Text>
-                        </Box>
-                    </Flex>
+                {/* Technical Translations */}
+                <Flex direction={{ base: 'column', lg: 'row' }} mb={20}>
+                    <Box
+                        flex="1"
+                        px={{ base: 4, lg: 8 }}
+                        display={{ base: 'block', lg: 'flex' }}
+                        flexDirection="column"
+                        justifyContent={{ base: 'flex-start', lg: 'center' }}
+                    >
+                        <Heading as="h3" size="lg" mb={4} textAlign="center" pr={10}>
+                            {content.translationSection.technical}
+                        </Heading>
+                        <Text pr={10}>{content.translationSection.technicalDescription}</Text>
+                    </Box>
+                    <Box flex="1">
+                        <Image
+                            src="/images/technical-translation.jpg"
+                            alt="Technical Translations"
+                            borderRadius="md" // Rounded edges
+                            boxSize="100%"  // Same size for all images
+                            objectFit="cover"
+                            height="40vh"
+                        />
+                    </Box>
+                </Flex>
 
-                    {/* General Translations */}
-                    <Flex direction={{ base: 'column', lg: 'row' }} >
-                        <Box
-                            flex="1"
-                            px={{ base: 4, lg: 8 }}
-                            display={{ base: 'block', lg: 'flex' }}
-                            flexDirection="column"
-                            justifyContent={{ base: 'flex-start', lg: 'center' }}
-                        >
-                            <Heading as="h3" size="lg" mb={4} textAlign="center" pr={10}>
-                                {content.translationSection.general}
-                            </Heading>
-                            <Text pr={10}>{content.translationSection.generalDescription}</Text>
-                        </Box>
-                        <Box flex="1">
-                            <Image
-                                src="/images/general-translation.jpg"
-                                alt="General Translations"
-                                borderRadius="md" // Rounded edges
-                                boxSize="100%"  // Same size for all images
-                                objectFit="cover"
-                                height="40vh"
-                            />
-                        </Box>
-                    </Flex>
-                </Box>
-            </Box >
+                {/* Certified Translations */}
+                <Flex direction={{ base: 'column', lg: 'row' }} mb={20}>
+                    <Box flex="1">
+                        <Image
+                            src="/images/certified-translation.jpg"
+                            alt="Certified Translations"
+                            borderRadius="md" // Rounded edges
+                            boxSize="100%"  // Same size for all images
+                            objectFit="cover"
+                            height="40vh"
+                        />
+                    </Box>
+                    <Box
+                        flex="1"
+                        px={{ base: 4, lg: 8 }}
+                        display={{ base: 'block', lg: 'flex' }}
+                        flexDirection="column"
+                        justifyContent={{ base: 'flex-start', lg: 'center' }}
+                    >
+                        <Heading as="h3" size="lg" mb={4} textAlign="center" pl={10}>
+                            {content.translationSection.certified}
+                        </Heading>
+                        <Text pl={10}>{content.translationSection.certifiedDescription}</Text>
+                    </Box>
+                </Flex>
+
+                {/* General Translations */}
+                <Flex direction={{ base: 'column', lg: 'row' }} >
+                    <Box
+                        flex="1"
+                        px={{ base: 4, lg: 8 }}
+                        display={{ base: 'block', lg: 'flex' }}
+                        flexDirection="column"
+                        justifyContent={{ base: 'flex-start', lg: 'center' }}
+                    >
+                        <Heading as="h3" size="lg" mb={4} textAlign="center" pr={10}>
+                            {content.translationSection.general}
+                        </Heading>
+                        <Text pr={10}>{content.translationSection.generalDescription}</Text>
+                    </Box>
+                    <Box flex="1">
+                        <Image
+                            src="/images/general-translation.jpg"
+                            alt="General Translations"
+                            borderRadius="md" // Rounded edges
+                            boxSize="100%"  // Same size for all images
+                            objectFit="cover"
+                            height="40vh"
+                        />
+                    </Box>
+                </Flex>
+            </Box>
 
             {/* Interpretation Section */}
-            < Box id="interpretation" py={16} px={20} bg="gray.50" mb={4} >
+            <Box id="interpretation" py={16} px={20} bg="gray.50" mb={4}>
                 <Heading as="h2" size="xl" mb={8} textAlign="center">
                     {content.interpretationSection.title}
                 </Heading>
@@ -156,10 +155,10 @@ const ServicesPage = () => {
                         <Text pl={10}>{content.interpretationSection.description}</Text>
                     </Box>
                 </Flex>
-            </Box >
+            </Box>
 
             {/* Language Services Section */}
-            < Box id="language-services" py={16} px={20} mb={4} >
+            <Box id="language-services" py={16} px={20} mb={4}>
                 <Heading as="h2" size="xl" mb={8} textAlign="center">
                     {content.languageServicesSection.title}
                 </Heading>
@@ -215,10 +214,10 @@ const ServicesPage = () => {
                         <Text pl={10}>{content.languageServicesSection.languageTrainingDescription}</Text>
                     </Box>
                 </Flex>
-            </Box >
+            </Box>
 
             {/* China Consulting Section */}
-            < Box id="china-consulting" py={16} px={20} bg="gray.50" mb={4} >
+            <Box id="china-consulting" py={16} px={20} bg="gray.50" mb={4}>
                 <Heading as="h2" size="xl" mb={8} textAlign="center">
                     {content.chinaConsultingSection.title}
                 </Heading>
@@ -274,10 +273,10 @@ const ServicesPage = () => {
                         <Text pl={10}>{content.chinaConsultingSection.crossCulturalDescription}</Text>
                     </Box>
                 </Flex>
-            </Box >
+            </Box>
 
             {/* About Us Section */}
-            < Box id="about-us" py={16} px={20} >
+            <Box id="about-us" py={16} px={20}>
                 <Heading as="h2" size="xl" mb={8}>
                     {content.aboutUsSection.title}
                 </Heading>
@@ -294,8 +293,8 @@ const ServicesPage = () => {
                         </Text>
                     </Box>
                 </Flex>
-            </Box >
-        </Layout >
+            </Box>
+        </Layout>
     );
 };
 
